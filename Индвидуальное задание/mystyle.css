@@ -1,0 +1,548 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background: #EEEEEE;
+    font-family: "Roboto";
+    color: #011F3A;
+}
+#container{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+#top{
+	position: absolute;
+	background: #FFFFFF;
+	width: 1440px;
+	height: 61px;
+}
+
+#logo{
+    margin-top: 19px;
+    margin-left: 24px;
+}
+
+#nav-center{
+    margin-top: -25px;
+    margin-left: 330.67px;
+}
+
+#nav-right{
+    margin-top: -25px;
+    margin-left: 1259.25px;
+}
+
+#top ul{
+    list-style-type: none;
+}
+#top li{
+    display: inline;
+    margin: 0 15px;
+}
+#top li a{
+    color: #011F3A;
+}
+#top li a:hover{
+    color: #F00;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #011F3A;
+    margin: 0 0 0 295;
+}
+
+
+
+
+#background-1{
+	background: #F2AE4D;
+	width: 1440px;
+	height: 750px;
+}
+
+#Books{
+    float: right;
+    margin-top: 148px;
+}
+
+#Main-text{
+    float: left;
+    color: #011F3A;
+    margin-top: 226px;
+    margin-left: 120px;
+}
+
+h1{
+    color: #011F3A;
+    font-size: 48px;
+}
+p{
+    margin-top: 33px;
+    color: #011F3A;
+    font-size: 15px;
+}
+
+.button {
+    background-color: #3D5675;
+    color: white;
+    padding: 20px;
+    border-radius: 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 33px;
+}
+
+.button2 {
+    background-color: #3D5675;
+    color: white;
+    padding: 20px;
+    border-radius: 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    right: 120px;
+}
+
+
+#Frame-2{
+    position: relative;
+    width: 1440px;
+    height: 120px;
+}
+
+#text1, #text2, #text3{
+    color: #A1A1A1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#pic-1{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+#pic-2{
+    position: absolute;
+    margin-left: 655px;
+    margin-top: 15px;
+}
+
+#pic-3{
+    position: absolute;
+    margin-left: 1112px;
+    margin-top: 15px;
+}
+
+#text-1{
+    color: #A1A1A1;
+    position: absolute;
+    margin-left: 278px;
+    margin-top: 41px;
+}
+
+#text-2{
+    color: #A1A1A1;
+    position: absolute;
+    margin-left: 751px;
+    margin-top: 41px;
+}
+
+#text-3{
+    color: #A1A1A1;
+    position: absolute;
+    margin-left: 1253px;
+    margin-top: 41px;
+}
+
+
+
+#Frame-3{
+    background-color: #EEEEEE;
+    position: relative;
+    width: 1440px;
+    height: 1162px;
+}
+
+#textthree{
+    margin-left: 120px;
+    color: #011F3A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+.abc {
+    color: #011F3A;
+    line-height: 50px;
+    display: inline-block;
+    width: 100%;
+    padding: 40px;
+}
+
+#First{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 432px;
+    margin-left: 121px;
+}
+
+#Second{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 432px;
+    margin-left: 121px;
+    margin-top: 434px;
+}
+
+#Third{
+    position: absolute;
+    float: right;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 432px;
+    margin-left: 524px;
+    margin-top: 0px; 
+}
+
+#Fourth{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 432px;
+    margin-left: 524px;
+    margin-top: 434px;
+}
+
+#Fifth{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 432px;
+    margin-left: 927px;
+    margin-top: 0px;
+}
+
+#Sixth{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 432px;
+    margin-left: 927px;
+    margin-top: 434px;
+}
+
+.name {
+    margin-top: 24px;
+    color: #011F3A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.aboutProduct{
+    width: 349.59px;
+    margin-left: 25px;
+}
+
+.price{
+    margin-top: 8px;
+    color: #A1A1A1;
+    float: right;
+}
+
+.about{
+    margin-top: 8px;
+    color: #777777;
+    float: left;
+}
+
+#other{
+    margin-top: 850px;
+    margin-left: 527.19px;
+    width: 385.61px;
+    height: 44px;
+    color: #A1A1A1;
+    line-height: 50px;
+    display: inline-block;
+    padding: 40px;
+}
+#othertext {
+    font-family: 'Roboto', sans-serif;
+    color: #A1A1A1;
+    font-size: 15px;
+    display: inline-block;
+}
+.button3 {
+    background-color: #FFFFFF;
+    color: #3D5675;
+    padding: 20px;
+    border-radius: 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 16px;
+    display: inline-block;
+}
+
+
+
+#Frame-4 {
+    background-color: #EEEEEE;
+    width: 1440px;
+    height: 914px;
+    position: relative;
+}
+
+#Custom {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 120px;
+    width: 1200px;
+    height: 744px;
+    background-color: #72BDA3;
+}
+
+.custext {
+    margin-top: 88px;
+    margin-left: 215px;
+    position: relative;
+    color: #011F3A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+#custompicteres{
+    position: absolute;
+    width: 1200px;
+    height: 391px;
+    top: 175.31px;
+}
+
+#pic1{
+    width: 300px;
+    height: 391px;
+    position: absolute;
+    left: 50px;
+    top: 46.31px;
+    left: 170px;
+}
+
+#pic2 {
+    width: 300px;
+    height: 391px;
+    position: absolute;
+    margin-left: 410px;
+    top: 46.31px;
+    left: 170px;
+}
+
+#pic3 {
+    width: 300px;
+    height: 391px;
+    position: absolute;
+    margin-left: 830px;
+    top: 46.31px;
+    left: 170px;
+}
+
+ .name2{
+    margin-top: 12px;
+    color: #011F3A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.description {
+    margin-top: 12px;
+    color: #3D5675;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#button5 {
+    width:220px;
+    background-color: #3D5675;
+    color: white;
+    padding: 20px;
+    border-radius: 44px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 540px;
+    margin-left: 620px;
+}
+
+
+
+
+#Frame-5 {
+    background-color: #EEEEEE;
+    width: 1440px;
+    height: 766px;
+    position: absolute;
+}
+
+
+
+.Arkatext {
+    margin-left: 180px;
+    position: absolute;
+    margin-top: 0px;
+    width: 304px;
+    height: 41px;
+    position: relative;
+    color: #011F3A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+#Arkapicteres {
+    position: absolute;
+    width: 1116px;
+    height: 413px;
+}
+
+#Arkapic1 {
+    width: 254px;
+    height: 413px;
+    position: absolute;
+    top: 211.31px;
+    left: 162px;
+}
+
+#Arkapic2 {
+    width: 300px;
+    height: 391px;
+    position: absolute;
+    top: 211.31px;
+    left: 593px;
+}
+
+#Arkapic3 {
+    width: 300px;
+    height: 391px;
+    position: absolute;
+    top: 211.31px;
+    left: 1024px;
+}
+
+.name2 {
+    margin-top: 12px;
+    color: #011F3A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.description {
+    margin-top: 12px;
+    color: #3D5675;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#Frame-6 {
+    top:600px;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 730px;
+    position: relative;
+}
+
+#Offerspicteres {
+    background-color: #FFCA3A;
+    position: relative;
+    width: 1200px;
+    height: 610px;
+    top: 60px;
+    left: 120px;
+}
+
+
+
+#OfferOne {
+    width: 360px;
+    height: 386px;
+    position: absolute;
+    top: 110.31px;
+    left: 119.5px;
+}
+
+#OfferTwo {
+    width: 360px;
+    height: 386px;
+    position: absolute ;
+    top: 110.31px;
+    left: 720.5px;
+}
+
+#name3 {
+    position: absolute;
+    margin-top: 0px;
+    left: 10px;
+    color: #011F3A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.Offerdescription {
+    position: relative;
+    margin-top: 394px;
+    color: #3D5675;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.forbutt{
+    margin-left: 197px;
+    width: 204px;
+    height: 44px;
+}
+
+
+.button6 {
+    width: 204px;
+    background-color: #FFFFFF;
+    color: #3D5675;
+    padding: 20px;
+    border-radius: 44px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
